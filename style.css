@@ -10,7 +10,7 @@ a{
 
 body{
     height: 100vh;
-    background-image: url(./img/background-desktop\ 1\ \(1\).png);
+    background-image: url(./imagem/image\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -38,10 +38,10 @@ header a{
 
 }
 main{
-    background-color: tomato;
+    
     flex-grow: 1;
 }
 footer{
-    background-color: blueviolet;
+    
     height: 50px;
 }
