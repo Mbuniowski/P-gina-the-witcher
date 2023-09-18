@@ -19,7 +19,7 @@ body{
     padding-left: 96px;
     padding-right: 96px;
     padding-bottom: 16px; */
-    padding: 32px 96px 16px 96px;
+    padding: 32px 96px 10px 50px;
     font-family: 'Inter', sans-serif;
 font-family: 'Montserrat', sans-serif;
     }
@@ -32,6 +32,7 @@ header{
     align-items: center;
     gap: 32px;
 }   
+ 
 
 
 main{
@@ -42,14 +43,7 @@ footer{
     
     height: 50px;
 }
-header{
-    
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-}   
+
 header a{
     color: #FFF;
     font-size: 1.5rem;
@@ -58,16 +52,13 @@ header a{
 header a:hover{
     border-bottom: 4px  solid  #FFF;
 }
-header .logo-dc:hover{
-    border-bottom: 4px solid transparent;
-}
 
 main{
     flex-grow: 1;
     display:flex;
 }
 .filme-container{
-    
+    color: #FFF;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -78,7 +69,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items:flex-start ;
-    gap: 24px;
+    gap: 80px;
 }
 .descricao p{
     width: 582px;
@@ -88,7 +79,7 @@ main{
 .trailers{
     height: 122px;
     display: flex;
-    gap: 32px;
+    gap: 108px;
     
 }
 .social-container{
