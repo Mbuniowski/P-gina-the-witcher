@@ -117,3 +117,11 @@ footer{
 
 }
 
+/*Tablet*/
+
+@media (max-width:768px) {
+    body {
+        padding: 32px 0px 0px 0px;
+        background-image: url(./imagem/background\ tablet\ the\ wicher.png)
+    }
+}
