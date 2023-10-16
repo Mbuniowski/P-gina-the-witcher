@@ -61,6 +61,12 @@ header a{
     border-bottom: 4px solid transparent;
     
 }
+header i.fas{
+    display: none;
+}
+header a:hover{
+    border-bottom: 2px solid #FFF;
+}
 
 main{
     flex-grow: 1;
@@ -89,10 +95,15 @@ main{
     color: #FFF;
 }
 .trailers{
-    height: 122px;
+    height: 130px;
     display: flex;
     gap: 108px;
-    
+   
+}
+
+.trailer{
+     border:  solid 4px #FFF;
+
 }
 
 footer{
@@ -105,3 +116,4 @@ footer{
     align-items:center;
 
 }
+
