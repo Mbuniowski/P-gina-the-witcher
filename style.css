@@ -1,15 +1,16 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
 
-body{
-    
+body {
+
     height: 100vh;
     background-image: url(./imagem/image\ 1.png);
     background-repeat: no-repeat;
@@ -23,97 +24,105 @@ body{
     padding: 32px 96px 10px 50px;
     font-family: 'Amarante', serif;
 
-    }
+}
 
-header{
-    
+header {
+
     height: 100px;
-    display: flex ;
-    justify-content:space-between;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 32px;
-} 
-.menu{
-    
+}
+
+.menu {
+
     color: #FFF;
     font-size: 1.5rem;
     gap: 32px;
     flex-grow: 1;
     justify-content: center;
     align-items: center;
-    display:flex;
-    
+    display: flex;
+
 }
 
 
-main{
-    
+main {
+
     flex-grow: 1;
 }
-footer{
-    
+
+footer {
+
     height: 50px;
 }
 
-header a{
+header a {
     color: #FFF;
     font-size: 1.5rem;
     border-bottom: 4px solid transparent;
-    
+
 }
-header i.fas{
+
+header i.fas {
     display: none;
 }
-header a:hover{
+
+header a:hover {
     border-bottom: 2px solid #FFF;
 }
 
-main{
+main {
     flex-grow: 1;
-    display:flex;
-    
+    display: flex;
+
 }
-.filme-container{
+
+.filme-container {
     color: #FFF;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    
+
 }
-.descricao{
+
+.descricao {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:flex-start ;
+    align-items: flex-start;
     gap: 100px;
-    
+
 }
-.descricao p{
+
+.descricao p {
     width: 582px;
     font-size: 1.5rem;
     color: #FFF;
 }
-.trailers{
+
+.trailers {
     height: 130px;
     display: flex;
     gap: 108px;
-   
-}
-
-.trailer{
-     border:  solid 4px #FFF;
 
 }
 
-footer{
-    
+.trailer {
+    border: solid 4px #FFF;
+
+}
+
+footer {
+
     height: 50px;
-    color:#FFF;
+    color: #FFF;
     font-style: italic;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -123,5 +132,49 @@ footer{
     body {
         padding: 32px 0px 0px 0px;
         background-image: url(./imagem/background\ tablet\ the\ wicher.png)
+    }
+
+
+
+    /* .social-container {
+        display: none;
+    } */
+
+    /* caixa da descrição do texto*/
+    .filme-container {
+        align-items: center;
+    }
+
+    /* descrição do texto de temporada */
+    .descricao {
+        padding: 60px;
+        justify-content: flex-start;
+        flex-grow: 0;
+    }
+
+    /* fonte do texto centralizada */
+    .descricao p {
+        text-align: center;
+    }
+
+    .trailers {
+        background-color: #FFF;
+        flex-grow: 1;
+        flex-direction: column;
+        gap: 32px;
+        margin-top: 150px;
+        justify-content: center;
+        align-items: left;
+
+    }
+
+    .trailers img {
+        width: 256px;
+        height: 122px;
+
+    }
+/* assinatura do texto  */
+    footer {
+        display: none;
     }
 }
